@@ -1,0 +1,23 @@
+body {
+    background-color: gray;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(160px, 1 fr));
+    grid-template-columns: repeat(10, 160px);
+    background-color: gray;
+}    
+
+.block {
+    height: 160px;
+    width: 160px;
+    background-color: honeydew;
+}
+
+.draw {
+    height: 160px;
+    width: 160px;
+    background-color: black;
+}
+
